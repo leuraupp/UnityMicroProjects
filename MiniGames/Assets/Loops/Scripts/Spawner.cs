@@ -5,8 +5,8 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject spawnPrefab;
-    public int spawnCount = 5;
-    public float spawnOffset = 1.5f;
+    public int spawnCount = 100;
+    public float spawnOffset = 1f;
 
     private void Start() {
         if (spawnPrefab != null) {
